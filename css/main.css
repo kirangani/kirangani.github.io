@@ -23,7 +23,7 @@ p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldse
 /* Composed to a scale of 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px and 72px */
 h1, h2, h3, h4, h5, h6 {font-family:'Open Sans', sans-serif;color:#444;}
 h1 {margin: 0; font-size: 4.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 60px / 72px */
-h2 {margin: 0; font-size: 2.75em; line-height: 1.3em; margin-bottom: 0.5em} /* 48px / 48px */
+h2 {margin: 0; font-size: 1.65em; line-height: 1.3em; margin-bottom: 0em} /* 48px / 48px */
 h3 {margin: 0; font-size: 2.25em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 0.6667em} /* 36px / 48px */ 
 h4 {margin: 0; font-size: 1.5em; line-height: 1em; margin-bottom: 1em} /* 24px / 24px */
 h5 {margin: 0; font-size: 1.3125em; line-height: 1.1428571428571428571428571428571em; margin-bottom: 1.1428571428571428571428571428571em} /* 21px / 24px */
@@ -152,6 +152,11 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
  height: 0; 
  clear: both;
 }
+
+.notbold{
+    font-weight:normal
+}?
+
 .no-list{
   margin: 0px;
   padding: 0px;
@@ -260,7 +265,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   height: 200px;
   width: 200px;
   margin-right: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
   overflow: hidden;
 }
 .photo img{
@@ -281,12 +286,11 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .info h2, #header h2{
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom: .2em;
+  margin-bottom: .0em;
   margin-top: 0.5em;
   
 }
 .info h4, #header h4{
-  color: #59BD85;
   margin-bottom: 2em;
 }
 .info h6, #header h6{
@@ -663,7 +667,7 @@ Change widths as necessary
 
  /* 2 COLUMN GRID */
  .g1 {width:48.0%}
- .g2 {width:48.0%}
+ .g2 {width:80.0%}
  .g3 {width:98.0%}
 }
 
